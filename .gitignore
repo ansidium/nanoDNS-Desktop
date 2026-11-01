@@ -1,0 +1,19 @@
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+/target/
+/dist/
+/qa/
+/.impeccable/
+/.font-build/
+/.venv*/
+__pycache__/
+*.pyc
+*.pdb
+*.log
+*.sddl
+settings.json
+nanodns.log*
+*.dpapi.xml
+.env
+.env.*
+!.env.example
